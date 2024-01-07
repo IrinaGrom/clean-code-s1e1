@@ -13,10 +13,10 @@ body {
 .aaa img {
   width: 100%;
 }
-.aaa .more_inf {
+.aaa .more-inf {
   font-family: fantasy, cursive;
 }
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .aaa {
     text-align: center;
   }
@@ -43,7 +43,7 @@ h3 {
   list-style: none;
 }
 input,
-button{
+button {
   outline: none;
 }
 button {
@@ -139,10 +139,10 @@ ul#completed-tasks label {
 ul li input[type="text"] {
   display: none;
 }
-ul li.editMode input[type="text"] {
+ul li.edit-mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
-ul li.editMode label {
+ul li.edit-mode label {
   display: none;
 }
